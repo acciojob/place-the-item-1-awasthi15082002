@@ -1,2 +1,20 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Holder styles */
+.holder {
+  display: flex;            /* Enable Flexbox */
+  justify-content: space-between; /* Space between the items */
+  flex-wrap: wrap;          /* Allow items to wrap onto the next line if necessary */
+  width: 100%;              /* Ensure the holder takes full width */
+  padding: 10px 0;          /* Optional: adds padding to the top and bottom for spacing */
+}
+
+/* Item styles */
+.item {
+  flex: 1;                  /* Allow items to grow and fill available space */
+  margin: 0 10px;           /* Add space between the items */
+  max-width: 200px;         /* Prevent items from becoming too wide */
+  text-align: center;       /* Center the text inside each item */
+  background-color: #f1f1f1; /* Example background color */
+  padding: 20px;            /* Padding for item content */
+  box-sizing: border-box;   /* Ensures padding is included in the width */
+}
